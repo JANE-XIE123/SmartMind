@@ -1,0 +1,29 @@
+# Stage 1: Build
+FROM node:18.20-alpine AS builder
+
+WORKDIR /build
+
+RUN npm install -g pnpm@8.7.0
+
+# Copy workspace config and all package.json files first (layer caching)
+COPY frontend/pnpm-workspace.yaml ./
+COPY frontend/package.json ./
+COPY frontend/pnpm-lock.yaml ./
+COPY frontend/packages ./packages
+
+RUN pnpm install --frozen-lockfile
+
+# Copy full frontend source
+COPY frontend/ ./
+RUN pnpm build
+
+# Stage 2: Serve
+FROM nginx:alpine
+
+COPY --from=builder /build/dist /usr/share/nginx/html
+COPY docs/nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
+  CMD wget -q --spider http://localhost/ || exit 1

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(rm *)",
+      "Bash(cmd /c \"rmdir /s /q node_modules\")",
+      "Bash(pnpm store *)",
+      "Bash(curl *)",
+      "Bash(rm -rf node_modules pnpm-lock.yaml)",
+      "Bash(npm install *)",
+      "Bash(touch \"E:/HM-project/派聪明2.0/PaiSmart/frontend/node_modules/.test\")",
+      "Bash(rm \"E:/HM-project/派聪明2.0/PaiSmart/frontend/node_modules/.test\")",
+      "Bash(mvn compile *)",
+      "Bash(mvn -f \"E:/HM-project/Paichongming/PaiSmart\" compile -q)",
+      "mcp__plugin_playwright_playwright__browser_navigate"
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - generic [ref=e18]:
+        - button [ref=e19] [cursor=pointer]:
+          - img [ref=e22]
+        - button [ref=e24] [cursor=pointer]:
+          - img [ref=e27]
+        - button [ref=e29] [cursor=pointer]:
+          - img [ref=e32]
+        - button "admin" [ref=e35] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - generic [ref=e40]: admin
+    - complementary [ref=e42]:
+      - generic [ref=e43]:
+        - link "面试智脑" [ref=e44] [cursor=pointer]:
+          - /url: "#/"
+          - img [ref=e45]
+          - heading "面试智脑" [level=2] [ref=e47]
+        - region "scrollable content" [ref=e54]:
+          - generic [ref=e55]:
+            - menu [ref=e56]:
+              - menuitem "用户管理" [ref=e57]:
+                - img [ref=e58] [cursor=pointer]
+                - text: 用户管理
+              - menuitem "聊天助手" [ref=e64]:
+                - img [ref=e65] [cursor=pointer]
+                - text: 聊天助手
+              - menuitem "聊天记录" [ref=e69]:
+                - img [ref=e70] [cursor=pointer]
+                - text: 聊天记录
+              - menuitem "知识库" [ref=e74]:
+                - img [ref=e75] [cursor=pointer]
+                - text: 知识库
+              - menuitem "组织标签" [ref=e78]:
+                - img [ref=e79] [cursor=pointer]
+                - text: 组织标签
+              - menuitem "模型配置" [ref=e84]:
+                - img [ref=e85] [cursor=pointer]
+                - text: 模型配置
+              - menuitem "邀请码管理" [ref=e91]:
+                - img [ref=e92] [cursor=pointer]
+                - text: 邀请码管理
+              - menuitem "用量监控" [ref=e96]:
+                - img [ref=e97] [cursor=pointer]
+                - text: 用量监控
+              - menuitem "个人中心" [ref=e100]:
+                - img [ref=e101] [cursor=pointer]
+                - text: 个人中心
+              - menuitem "余额充值" [ref=e106]:
+                - img [ref=e107] [cursor=pointer]
+                - text: 余额充值
+              - menuitem "充值管理" [ref=e111]:
+                - img [ref=e112] [cursor=pointer]
+                - text: 充值管理
+            - button [ref=e116] [cursor=pointer]:
+              - img [ref=e119]
+    - main [ref=e122]:
+      - generic [ref=e124]:
+        - heading "文件列表 检索知识库 新增 刷新 列设置" [ref=e125]:
+          - heading "文件列表" [ref=e126]
+          - generic [ref=e127]:
+            - button "检索知识库" [ref=e128] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e132]: 检索知识库
+            - button "新增" [ref=e133] [cursor=pointer]:
+              - img [ref=e135]
+              - generic [ref=e137]: 新增
+            - button "刷新" [ref=e138] [cursor=pointer]:
+              - img [ref=e140]
+              - generic [ref=e142]: 刷新
+            - button "列设置" [ref=e143] [cursor=pointer]:
+              - img [ref=e145]
+              - generic [ref=e147]: 列设置
+        - generic [ref=e148]:
+          - generic [ref=e150]:
+            - table [ref=e152]:
+              - rowgroup [ref=e164]:
+                - row "文件名 MD5 文件大小 预估向量化 实际向量化 上传状态 组织标签 是否公开 上传时间 操作" [ref=e165]:
+                  - columnheader "文件名" [ref=e166]:
+                    - generic [ref=e168]: 文件名
+                  - columnheader "MD5" [ref=e169]:
+                    - generic [ref=e171]: MD5
+                  - columnheader "文件大小" [ref=e172]:
+                    - generic [ref=e174]: 文件大小
+                  - columnheader "预估向量化" [ref=e175]:
+                    - generic [ref=e177]: 预估向量化
+                  - columnheader "实际向量化" [ref=e178]:
+                    - generic [ref=e180]: 实际向量化
+                  - columnheader "上传状态" [ref=e181]:
+                    - generic [ref=e183]: 上传状态
+                  - columnheader "组织标签" [ref=e184]:
+                    - generic [ref=e187]: 组织标签
+                  - columnheader "是否公开" [ref=e188]:
+                    - generic [ref=e190]: 是否公开
+                  - columnheader "上传时间" [ref=e191]:
+                    - generic [ref=e193]: 上传时间
+                  - columnheader "操作" [ref=e194]:
+                    - generic [ref=e196]: 操作
+            - table [ref=e197]:
+              - rowgroup [ref=e209]:
+                - row "面渣逆袭-分布式篇.pdf 4b53c8f0... 1.94M 11,442 Tokens 37 个切片 7,805 Tokens 37 个切片 已完成 管理员组织 私有 2026-05-15 预览 删除" [ref=e210]:
+                  - cell "面渣逆袭-分布式篇.pdf" [ref=e211]:
+                    - generic [ref=e212]:
+                      - img [ref=e213]
+                      - generic [ref=e215]: 面渣逆袭-分布式篇.pdf
+                  - cell "4b53c8f0..." [ref=e216]:
+                    - generic "点击复制MD5" [ref=e219] [cursor=pointer]: 4b53c8f0...
+                  - cell "1.94M" [ref=e220]
+                  - cell "11,442 Tokens 37 个切片" [ref=e221]:
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: 11,442 Tokens
+                      - generic [ref=e224]: 37 个切片
+                  - cell "7,805 Tokens 37 个切片" [ref=e225]:
+                    - generic [ref=e226]:
+                      - generic [ref=e227]: 7,805 Tokens
+                      - generic [ref=e228]: 37 个切片
+                  - cell "已完成" [ref=e229]:
+                    - generic [ref=e231]: 已完成
+                  - cell "管理员组织" [ref=e232]:
+                    - generic [ref=e233]: 管理员组织
+                  - cell "私有" [ref=e234]:
+                    - generic [ref=e236]: 私有
+                  - cell "2026-05-15" [ref=e237]
+                  - cell "预览 删除" [ref=e238]:
+                    - generic [ref=e239]:
+                      - button "预览" [ref=e240] [cursor=pointer]:
+                        - generic [ref=e241]: 预览
+                      - button "删除" [ref=e242] [cursor=pointer]:
+                        - generic [ref=e243]: 删除
+          - generic [ref=e245]:
+            - generic [ref=e246]: 共 1 条
+            - img [ref=e249]
+            - generic [ref=e251] [cursor=pointer]: "1"
+            - img [ref=e254]
+            - generic [ref=e258] [cursor=pointer]:
+              - generic "20 / 页" [ref=e259]:
+                - generic [ref=e260]: 20 / 页
+              - img "loading" [ref=e261]:
+                - img [ref=e266]
+  - img
+  - generic [ref=e272]:
+    - complementary [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e276]:
+          - img [ref=e278]
+          - heading "面渣逆袭-分布式篇.pdf" [level=2] [ref=e281]
+        - generic [ref=e282]:
+          - button "下载" [ref=e283] [cursor=pointer]:
+            - img [ref=e285]
+            - generic [ref=e287]: 下载
+          - button "关闭" [ref=e288] [cursor=pointer]:
+            - img [ref=e290]
+            - generic [ref=e292]: 关闭
+      - generic [ref=e293]:
+        - text: 概览
+        - strong [ref=e294]: 文档已定位到可阅读页
+        - paragraph [ref=e295]: 这里展示的是引用来源的原始文档内容，你可以直接浏览、下载或在新窗口中打开。
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - generic [ref=e302]: PDF 预览
+          - generic [ref=e303]: 支持翻页、缩放和新窗口查看原文件。
+        - generic [ref=e304]:
+          - generic [ref=e305]: 第 1 / 1 页
+          - generic [ref=e306]: 100%
+          - button [disabled] [ref=e307]:
+            - img [ref=e309]
+          - button [disabled] [ref=e311]:
+            - img [ref=e313]
+          - button [ref=e315] [cursor=pointer]:
+            - img [ref=e317]
+          - button [ref=e319] [cursor=pointer]:
+            - img [ref=e321]
+          - button "适应宽度" [ref=e323] [cursor=pointer]:
+            - generic [ref=e324]: 适应宽度
+          - button "新窗口" [ref=e325] [cursor=pointer]:
+            - img [ref=e327]
+            - generic [ref=e329]: 新窗口
+      - generic [ref=e330]:
+        - complementary [ref=e331]
+        - generic [ref=e333]:
+          - img "loading" [ref=e335]:
+            - img [ref=e338]
+          - generic [ref=e341]: 正在加载 PDF 文档
