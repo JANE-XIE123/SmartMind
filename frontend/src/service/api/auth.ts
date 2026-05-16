@@ -21,14 +21,13 @@ export function fetchLogout() {
   return request({ url: '/users/logout', method: 'post' });
 }
 
-export function fetchRegister(username: string, password: string, inviteCode?: string) {
+export function fetchRegister(username: string, password: string) {
   return request({
     url: '/users/register',
     method: 'post',
     data: {
       username,
-      password,
-      inviteCode
+      password
     }
   });
 }

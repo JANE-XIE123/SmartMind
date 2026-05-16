@@ -84,9 +84,9 @@ admin:
 app:
   auth:
     registration:
-      # 默认邀请码注册，避免开发环境误开放
-      mode: ${APP_AUTH_REGISTRATION_MODE:INVITE_ONLY}
-      invite-required: ${APP_AUTH_INVITE_REQUIRED:true}
+      # 开放注册
+      mode: ${APP_AUTH_REGISTRATION_MODE:OPEN}
+      invite-required: ${APP_AUTH_INVITE_REQUIRED:false}
 
 rate-limit:
   register:
